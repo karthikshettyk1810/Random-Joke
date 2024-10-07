@@ -1,0 +1,43 @@
+#joke
+{
+    /* display: flex; */
+    backdrop-filter: blur(2px);
+    width: 500px;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 12px;
+    border: solid 2px rgba(255,255,255,.2);
+    /* box-sizing: border-box; */
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 25px;
+    color: yellow;
+    font-family: 'Times New Roman';
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url("joke.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#btn
+{
+    /* background-color: lemonchiffon; */
+    border-radius: 12px;
+    backdrop-filter: blur(2px);
+    size: 12px;
+    width: 100px;
+    padding: 5px;
+    margin: 10px;
+    align-items: center;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    margin: 0%;
+    color: white
+}
